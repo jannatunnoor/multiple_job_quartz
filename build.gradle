@@ -1,0 +1,27 @@
+plugins {
+	id 'org.springframework.boot' version '2.4.2'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+	//implementation 'org.springframework.boot:spring-boot-starter-quartz'
+	implementation 'org.quartz-scheduler:quartz:2.3.0'
+	implementation 'org.springframework:spring-context-support'
+	implementation 'com.mchange:c3p0:0.9.5.2'
+	implementation 'com.h2database:h2'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+	useJUnitPlatform()
+}
