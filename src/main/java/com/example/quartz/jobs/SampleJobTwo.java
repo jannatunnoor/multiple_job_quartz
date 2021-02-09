@@ -1,4 +1,4 @@
-package com.example.quartz.scheduler;
+package com.example.quartz.jobs;
 
 import com.example.quartz.service.SampleJobService;
 import org.quartz.Job;

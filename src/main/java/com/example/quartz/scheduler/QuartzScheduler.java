@@ -5,6 +5,7 @@ import static org.quartz.SimpleScheduleBuilder.simpleSchedule;
 import static org.quartz.TriggerBuilder.newTrigger;
 
 import com.example.quartz.config.AutoWiringSpringBeanJobFactory;
+import com.example.quartz.jobs.SampleJobOne;
 import org.quartz.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

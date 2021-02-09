@@ -1,11 +1,11 @@
 package com.example.quartz.scheduler;
 
 import com.example.quartz.config.AutoWiringSpringBeanJobFactory;
-import com.example.quartz.utils.Utils;
+import com.example.quartz.jobs.SampleJobOne;
+import com.example.quartz.jobs.SampleJobTwo;
 import org.quartz.JobDetail;
 import org.quartz.SimpleTrigger;
 import org.quartz.Trigger;
-import org.quartz.impl.JobDetailImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -26,11 +26,8 @@ import org.springframework.scheduling.quartz.SpringBeanJobFactory;
 
 import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
-import javax.swing.table.TableRowSorter;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Map;
-import java.util.Set;
 
 @Configuration
 @EnableAutoConfiguration
