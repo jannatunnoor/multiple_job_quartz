@@ -3,6 +3,8 @@
 This module contains articles about Spring with Quartz
 
 ### Relevant Articles: 
+
+- [Multiple Job Scheduling in Spring with Quartz](https://abigzero.medium.com/multiple-job-scheduling-in-spring-with-quartz-35951a44a3b4)
 - [Scheduling in Spring with Quartz](https://www.baeldung.com/spring-quartz-schedule)
     
 
